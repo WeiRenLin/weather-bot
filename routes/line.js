@@ -118,7 +118,7 @@ async function handleText(message, replyToken, source) {
                           "contents": [
                             {
                               "type": "text",
-                              "text": `${moment(weather[0].time[0].startTime).format("MM-DD")}`,
+                              "text": `${moment(weather[0].time[0].startTime).format("MM-DD")} 白天`,
                               "color": "#aaaaaa",
                               "size": "sm",
                               "flex": 5
@@ -140,7 +140,7 @@ async function handleText(message, replyToken, source) {
                           "contents": [
                             {
                               "type": "text",
-                              "text": `${moment(weather[0].time[2].startTime).format("MM-DD")}`,
+                              "text": `${moment(weather[0].time[2].startTime).format("MM-DD")} 晚上`,
                               "color": "#aaaaaa",
                               "size": "sm",
                               "flex": 5
@@ -169,7 +169,7 @@ async function handleText(message, replyToken, source) {
                           "contents": [
                             {
                               "type": "text",
-                              "text": `${moment(weather[2].time[0].startTime).format("MM-DD")}`,
+                              "text": `${moment(weather[2].time[0].startTime).format("MM-DD")} 白天`,
                               "color": "#aaaaaa",
                               "size": "sm",
                               "flex": 5
@@ -191,7 +191,7 @@ async function handleText(message, replyToken, source) {
                           "contents": [
                             {
                               "type": "text",
-                              "text": `${moment(weather[2].time[2].startTime).format("MM-DD")}`,
+                              "text": `${moment(weather[2].time[2].startTime).format("MM-DD")} 晚上`,
                               "color": "#aaaaaa",
                               "size": "sm",
                               "flex": 5
